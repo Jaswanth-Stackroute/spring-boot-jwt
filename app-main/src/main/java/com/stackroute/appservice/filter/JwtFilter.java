@@ -17,6 +17,7 @@ import java.io.IOException;
  * Override the doFilter method with ServletRequest, ServletResponse and FilterChain.
  * This is used to authorize the API access for the application.
  */
+
 public class JwtFilter extends GenericFilterBean {
 
     @Override
